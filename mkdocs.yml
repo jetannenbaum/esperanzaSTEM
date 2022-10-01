@@ -1,0 +1,27 @@
+site_name: Esperanza STEM
+
+nav:
+  - Home: index.md
+  - Python:
+    - Why Python: python/whyPython.md
+
+
+theme:
+  material
+
+site_description: 'Resources for teaching Python to Esperanza Academy students.  All content licensed Creative Commons ShareAlike Attribution Noncommercial'
+site_author: 'Jim Tannenbaum'
+repo_name: 'GitHub Repo'
+repo_url: 'https://github.com/jetannenbaum/EsperanzaSTEM'
+
+edit_uri: 'blob/master/docs'
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.details
+  - pymdownx.superfences
+
