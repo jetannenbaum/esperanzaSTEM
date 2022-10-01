@@ -4,6 +4,7 @@ nav:
   - Home: index.md
   - Python:
     - Why Python: python/whyPython.md
+    - Introduction: python/introduction.md
 
 
 theme:
