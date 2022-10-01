@@ -5,6 +5,7 @@ nav:
   - Python:
     - Why Python: python/whyPython.md
     - Introduction: python/introduction.md
+    - Setting Up Trinket: python/trinket.md
 
 
 theme:
