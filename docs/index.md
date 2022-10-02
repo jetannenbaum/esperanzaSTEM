@@ -3,7 +3,7 @@
 
 ## Who am I?
 
-* I am Mr. Tannenbaum, an Enterprise Architect at United Healthcare
+* I am Mr. Tannenbaum, a senior principal engineer at United Healthcare
 * Married to Mrs. Tannenbaum, 8th grade counselor at Esperanza Academy Middle School
 * Bachelor of Science in Computer Engineering degree from Lehigh University
     * Combination of Computer Science and Digital Hardware
