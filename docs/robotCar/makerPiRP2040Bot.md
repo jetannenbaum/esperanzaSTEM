@@ -415,5 +415,5 @@ The left sensor should be connected to Grove 7 and the right sensor should be co
 
 To start the line following code, start with the power switch in the off position, hold down the GP20 button, turn on the power switch, 
 wait until the board starts flashing red, then release the button and place the bot on the track.  You may need to adjust the sensitivity 
-of the sensors such that it picks up the difference between the dank line and the light "track."  I use black electrical tape on white card 
+of the sensors such that it picks up the difference between the dark line and the light "track."  I use black electrical tape on white card 
 stock paper for my track.     
