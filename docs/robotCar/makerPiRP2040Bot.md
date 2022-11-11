@@ -200,7 +200,7 @@ Command | Direction
 ---------|----------
 h | halt (stop the wheels)
 f | forward fast (both wheels spin clockwise)
-s | froward slow (both wheels spin clockwise)
+s | forward slow (both wheels spin clockwise)
 l | turn left (right wheel spins clockwise, left wheel spins counter clockwise)
 r | turn right (right wheel spins counter clockwise, left wheel spins clockwise)
 
