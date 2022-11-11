@@ -13,14 +13,14 @@ Using what you have learned, can you draw four squares in different colors, then
     - angle = 90
 1. Set the color of the turtle
     - jet.color("green")
-1. Start the file area
+1. Start the fill area
     - jet.begin_fill()
-1.  Draw a square, but _don't_ do the last turn
-1. End the file area
+1. Draw a square as before, but _don't_ do the last right turn
+1. End the fill area
     - jet.end_fill()
 1. Repeat steps 3 through 6 until all four squares are drawn
 1. Hide the Turtle
     - jet.hideturtle()
 
-Four Squares: [https://trinket.io/python/a7e1bf623c](https://trinket.io/python/a7e1bf623c)
+Still need help? Four Squares: [https://trinket.io/python/a7e1bf623c](https://trinket.io/python/a7e1bf623c)
 
