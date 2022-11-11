@@ -18,11 +18,16 @@ We'll use the [Trinket web site](https://trinket.io/) because it a student-safe 
 ## Using Trinket
 
 * Go to the [Trinket web site](https://trinket.io/)
-    * Create your account by entering:
+    * Sign up by clicking on the Sign Up area in the right navigation area
+    ![login](./img/login.jpg)
+    * Create your account by entering the following:
         * Your name
         * A username
         * Your email (use your school email)
         * A password (Don't use your school password!)
+    ![create account](./img/createAccount.jpg)
     * Create a new python trinket
         * Click on the Blue "New Trinket" button
         * Select "Python"
+        
+    ![new trinket](./img/newTrinket.jpg)
