@@ -82,7 +82,7 @@ Connect the other end of the grove wire harness to the grove 3 port.  Using the 
 N.B.: If you are using an Apple device to communicate with the bluetooth module, you must use the AT-09 module.  Apple does not support the HC-05 bluetooth version.
 
 This is the code:
-```
+```python
 from machine import Pin, UART
 
 # Get the data from the UART
@@ -118,7 +118,7 @@ Connect the other end of the grove wire harness to the grove 5 port.  Once conne
 
 The code is below
 
-```
+```python
 from machine import Pin
 import utime
 import time
@@ -211,7 +211,7 @@ Additionally, you should be able to wave your hand in front of the ultrasonic se
  _Add batteries, download the code to the board as main.py, and Happy motoring!_
 
 
-```
+```python
 from machine import Pin, PWM, UART
 import utime
 import time
@@ -271,7 +271,7 @@ def stopTone():
     buzzer.duty_u16(0)
     
 #define the UART
-uart0 = UART(id=1, baudrate=9600, tx=Pin(4), rx=Pin(5))
+uart0 = UART(1, baudrate=9600, tx=Pin(4), rx=Pin(5))
 
 # Get the data from the UART
 def readUartBytes(uart):
