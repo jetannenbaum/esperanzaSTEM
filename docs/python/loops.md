@@ -26,10 +26,11 @@ for i in range(4):
 ```
 
 Let's examine the pieces of the for statement:
+
 1. Starts with the reserved word _for_
-2. Uses a variable that iterates
-3. Next is the reserved word _in_ 
-4. Finally, there is the data that is iterated over.  In this example, we have a set (or _range_) of numbers. Note: a _range_ is defined (by default) as starting at zero, so range(4) means that we are counting 0, 1, 2, 3. 
+1. Uses a variable that iterates
+1. Next is the reserved word _in_ 
+1. Finally, there is the data that is iterated over.  In this example, we have a set (or _range_) of numbers. Note: a _range_ is defined (by default) as starting at zero, so range(4) means that we are counting 0, 1, 2, 3. 
 
 See a loop in action: [https://trinket.io/python/11386c7fa2](https://trinket.io/python/11386c7fa2)
 
