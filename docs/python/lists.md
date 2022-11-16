@@ -61,7 +61,8 @@ print(number)
             # end fill
         # hide the turtle when done.
         ```
-
+        
+![Polygon Drawing](./img/polygonDraw.jpg)
 
 Need some help?  Take a look here: [https://trinket.io/python/06ab63c75f](https://trinket.io/python/06ab63c75f)
 
