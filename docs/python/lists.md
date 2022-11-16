@@ -45,7 +45,7 @@ print(number)
 !!! Challenge
 1. Get a random number of colors from the user
     1. hint: color = input('Enter a color: ')
-1. Store them in a list
+1. Store the color in a list of colors
 1. Draw the polygons, one in each color, in a similar manner to the four squares.
     1. Let the number of sides of each polygon be equal to the number of colors that the user entered
         1. hint: # of sides = len(colors)
@@ -55,7 +55,11 @@ print(number)
         1. hint: 
         ```python
         for color in colors:
+            # set the color
+            # begin fill
             # draw polygon
+            # end fill
+        # hide the turtle when done.
         ```
 
 
