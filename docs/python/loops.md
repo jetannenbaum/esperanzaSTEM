@@ -34,6 +34,25 @@ Let's examine the pieces of the for statement:
 
 See a loop in action: [https://trinket.io/python/11386c7fa2](https://trinket.io/python/11386c7fa2)
 
+## More on Loops
+
+- We can change the starting value of a range, for example: range(2, 6)
+    - What numbers are in this sequence?
+- We can change the way a loop counts, for example: range(1, 100, 2)
+    - What numbers are in this sequence?
+- We can nest loops:
+```python
+for x in range(2, 6):
+    for y in range(1, 100, 2):
+        z = x * y
+```
+- Remember that Python variables can be words as well as numbers, so what happens if we do this?
+```python
+animal = 'squirrel'
+for x in animal:
+    print(x)
+```
+
 !!! Experiments
 1. Can you make the turtle draw a larger square?  Hint: change the distance to be 80.  How big can you make the square before the turtle goes off the screen?
 1. A polygon's internal angle can be calculated as: angle = 360 / Number of sides.  A square is a type of polygon.  It has four sides, so the internal angle = 360 / 4 = 90 degrees!

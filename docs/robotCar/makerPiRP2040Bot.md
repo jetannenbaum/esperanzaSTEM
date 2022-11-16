@@ -1,5 +1,5 @@
 # Building a remote control robot car with the Maker Pi RP2040
-![RP2040 Robot-Car](../img/BlueToothMounted.jpg)
+![RP2040 Robot-Car](./img/BlueToothMounted.jpg)
 
 This was the robot car that I built using the parts kit as descriped below.
 
@@ -9,14 +9,14 @@ The bot brain is the Maker Pi RP2040.  The Maker Pi board makes building a bot s
 
  **The parts kit includes:**
 
- ![full kit](../img/HastieParts.jpg)
+ ![full kit](./img/HastieParts.jpg)
 
  Description | Part 
 ---------|----------
-Chassis kit | ![Chassis](../img/Chassis-Kit.jpg)
-Maker Pi RP2040 | ![RP2040](../img/maker-pi-rp2040-top-view.png)
-HC-05 or AT-09 Bluetooth module | ![Bluetooth modules](../img/HC-05_AT-09.jpg)
-Ultrasonic sensor and mount | ![sensor and mount](../img/sensorAndMount.jpg)
+Chassis kit | ![Chassis](./img/Chassis-Kit.jpg)
+Maker Pi RP2040 | ![RP2040](./img/maker-pi-rp2040-top-view.png)
+HC-05 or AT-09 Bluetooth module | ![Bluetooth modules](./img/HC-05_AT-09.jpg)
+Ultrasonic sensor and mount | ![sensor and mount](./img/sensorAndMount.jpg)
 
 Additional parts (not included in the kit):
 
@@ -24,7 +24,7 @@ Additional parts (not included in the kit):
 - Wire ties to secure wires
 - Four AA batteries
 - USB Micro B Cable
-- Two optional IR Sensors for line following ![IR Sensor](../img/IRSensor.jpg)
+- Two optional IR Sensors for line following ![IR Sensor](./img/IRSensor.jpg)
 
  **Additional software required:**
 
@@ -152,43 +152,43 @@ while True:
 
 **Assemble the chassis**
 
-![Board Placement](../img/BoardPlacement.jpg)![Board Marked](../img/BoardMarked.jpg)
+![Board Placement](./img/BoardPlacement.jpg)![Board Marked](./img/BoardMarked.jpg)
 
 Place the Maker PI RP2040 board on the rear of the chassis as shown and mark the small holes that are in each corner.  Make sure the back of the board is closer to the back of the chassis, since the motors will end up close to the front board mounts.
 
-![Drill Holes](../img/DrillHoles.jpg)
+![Drill Holes](./img/DrillHoles.jpg)
 
 Once the holes are marked, drill the holes, using an 1/8 inch drill bit.  Be careful, as your mounting holes may be close to existing mount holes in the chassis.  Also note that the chassis is thin plastic, so it must be supported as you drill through it.
 
-![Peel Paper](../img/PeelPaper.jpg)
+![Peel Paper](./img/PeelPaper.jpg)
 
 After the holes are drilled, remove the paper from the chassis, motor mounts, and sensor mount.  All parts should be clear plastic after the paper is romoved.
 
-![Wheel Parts](../img/WheelParts.jpg)![Motor Assembly](../img/MotorAssembly.jpg)
+![Wheel Parts](./img/WheelParts.jpg)![Motor Assembly](./img/MotorAssembly.jpg)
 
 Gather the wheel, motor, mounts, long screws, and nut as shown above.  Slide the motor mounts through the chassis, then insert and secure the motor with the screws.  Note that the wires will seperate from the motor if not handled with care.  The wires should be on the side of the motor that faces out from the chassis.  Once the motor is mounted, feed the wires through the chassis and optionally secure them with a wire tie.
 
-![Wheel Added](../img/WheelAdded.jpg)![Motor Wires](../img/MotorWires.jpg)
+![Wheel Added](./img/WheelAdded.jpg)![Motor Wires](./img/MotorWires.jpg)
 
 Add the wheel once the motor is mounted and repeat for the other side.
 
-![Battery Holder](../img/BatteryHolder.jpg)
+![Battery Holder](./img/BatteryHolder.jpg)
 
 The battery holder is mounted on the bottom of the chassis, nestled between the motors.  The wires from the battery holder should feed to the rear of the chassis.
 
-![Rear Wheel](../img/RearWheel.jpg)![Rear Wheel Added](../img/RearWheelAssembled.jpg)
+![Rear Wheel](./img/RearWheel.jpg)![Rear Wheel Added](./img/RearWheelAssembled.jpg)
 
 Assemble the rear wheel by adding the standoffs to the castor wheel as shown in the above left image.  Then attach it to the chassis.  The wires for the battery holder are shown feeding through the hole to the left of the motor wires.  They will need to be fed through the right side (assembler error).
 
-![Nut and Bolt](../img/NutAndBolt.jpg)![Rear Wire View](../img/RearWires.jpg)
+![Nut and Bolt](./img/NutAndBolt.jpg)![Rear Wire View](./img/RearWires.jpg)
 
 Feed the screws up through the bottom of the chassis in the holes that were drilled.  Use the plastic spacers to separate the board from the chassis (and clear the wires), then secure the board with the nuts.  The board should be mounted such that the connections to the motor and battery wires face the rear of the chassis.  The wires can now be trimmed and attached to the board.  Carefully note that the black battery wire connects to the negative (-) green terminal and the red battery wire attaches to the positive (+) green terminal.  The motor wires should connect to the black terminals, with the black wires on the outside (terminals labeled GP8 and GP 11) and the red wires on the inside (terminals labeled GP 9 and GP 10).
 
-![Sensor Assembly](../img/SensorAssembly.jpg)![Sensor Mounted](../img/SensorMounted.jpg)![Sensor Wired](../img/SensorWired.jpg)
+![Sensor Assembly](./img/SensorAssembly.jpg)![Sensor Mounted](./img/SensorMounted.jpg)![Sensor Wired](./img/SensorWired.jpg)
 
 Insert the ultrasonic sensor in the mount with the pins up (it will appear as if the sensor is mounted upside down, well it is).  Then attach the mount to the front of the chassis with the short screws.  Disconnect the wires from the sensor (assuming they are still attached from previous testing) and thread the wires from the grove 5 port through the chassis and back to the sensor.  Use a small wire tie to keep the wires secure.
 
-![Bluetooth Module](../img/BlueToothMounted.jpg)
+![Bluetooth Module](./img/BlueToothMounted.jpg)
 
 The bluetooth module will nestle between the wire ties used to tidy up the wires.  Disconnect the wires from the bluetooth module and thread the wires from the grove 3 port through the chassis and reconnect to the module as shown.  This completes the chassis assembly.
 
@@ -403,7 +403,7 @@ while True:
 
 Attach the sensors to the front of the chassis as shown
 
-![Line Follower](../img/lineFollower.jpg)
+![Line Follower](./img/lineFollower.jpg)
 
 Red wire to VCC
 

@@ -13,6 +13,8 @@ nav:
     - Using Variables: python/usingVariables.md
     - Drawing Four Squares: python/fourSquares.md
     - Exploring Loops: python/loops.md
+    - Conditionals: python/conditionals.md
+    - Lists: python/lists.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
