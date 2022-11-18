@@ -1,7 +1,7 @@
 # Building a remote control robot car with the Maker Pi RP2040
 ![RP2040 Robot-Car](./img/BlueToothMounted.jpg)
 
-This was the robot car that I built using the parts kit as descriped below.
+This was the robot car that is built using the parts kit as descriped below.
 
 The bot brain is the Maker Pi RP2040.  The Maker Pi board makes building a bot simple, since it is a one board solution built around the RP2040 (the same controller used in the Raspberry Pi Pico).  The board comes with a dual channel DC motor driver, four servo motor ports, seven grove ports, a piezo, and two multi color leds. 
 
@@ -28,8 +28,8 @@ Additional parts (not included in the kit):
 
  **Additional software required:**
 
-- An IDE capable of supporting MicroPython.  I'm using [Thonny](https://thonny.org/)
-- Software capable of connecting to and writing to the bluetooth module (I'm using LightBlue)
+- An IDE capable of supporting MicroPython, for example: [Thonny](https://thonny.org/)
+- Software capable of connecting to and writing to the bluetooth module, for example: LightBlue, available in the iOS & Google Play app stores
 
 **There are several parts to this project.  Let's break them down by tasks:**
 
@@ -93,7 +93,7 @@ def readUartBytes(uart):
     return resp.decode()
  
 # Create the UART
-uart0 = UART(id=1, baudrate=9600, tx=Pin(4), rx=Pin(5))
+uart0 = UART(1, baudrate=9600, tx=Pin(4), rx=Pin(5))
 
 # Loop
 while True:
