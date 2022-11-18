@@ -29,7 +29,7 @@ Additional parts (not included in the kit):
  **Additional software required:**
 
 - An IDE capable of supporting MicroPython, for example: [Thonny](https://thonny.org/)
-- Software capable of connecting to and writing to the bluetooth module, for example: LightBlue, available in the iOS & Google Play app stores
+- Software capable of connecting to and writing to the bluetooth module, for example: LightBlue, available in the iOS & Google Play app stores.  An alternative for Android usres is BlueSerial.
 
 **There are several parts to this project.  Let's break them down by tasks:**
 
@@ -80,6 +80,8 @@ White | RXD
 Connect the other end of the grove wire harness to the grove 3 port.  Using the following code and your bluetooth application of choice, you should be able to send data to the board and have it display in the terminal window.
 
 N.B.: If you are using an Apple device to communicate with the bluetooth module, you must use the AT-09 module.  Apple does not support the HC-05 bluetooth version.
+
+An additional note: Some of the BlueTooth modules require a pairing code.  You can find the pairing code by sending AT+PAIR through the UART to the module.  The module will then return the pairing code.  Code to write to the UART is _not_ included here, but is available elsewhere on the site.
 
 This is the code:
 ```python
