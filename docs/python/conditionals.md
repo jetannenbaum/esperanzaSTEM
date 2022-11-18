@@ -22,10 +22,12 @@ Not | a not in b | a is not contained in b | 'a' not in 'Antique'
 
 - In an if statement:
 ```python
-if (i > 2):
-   # do something if i is greater than 2
+if i > j:
+   print(str(i) + ' is greater than ' + str(j))
+elif i == j:
+   print(str(i) + ' is equal to ' + str(j))
 else:
-   # do something else when i is exactly 2 or less than 2
+   print(str(i) + ' is less than ' + str(j))
 ```
 
 - In a while loop:

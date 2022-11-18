@@ -15,6 +15,7 @@ nav:
     - Exploring Loops: python/loops.md
     - Conditionals: python/conditionals.md
     - Lists: python/lists.md
+    - Functions: python/functions.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
