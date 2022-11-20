@@ -29,7 +29,7 @@ Additional parts (not included in the kit):
  **Additional software required:**
 
 - An IDE capable of supporting MicroPython, for example: [Thonny](https://thonny.org/)
-- Software capable of connecting to and writing to the bluetooth module, for example: LightBlue, available in the iOS & Google Play app stores.  An alternative for Android usres is BlueSerial.
+- Software capable of connecting to and writing to the bluetooth module, for example: LightBlue, available in the iOS & Google Play app stores.  An alternative for Android users is BlueSerial.
 
 **There are several parts to this project.  Let's break them down by tasks:**
 
