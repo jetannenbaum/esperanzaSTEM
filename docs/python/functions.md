@@ -9,7 +9,7 @@
 ## Defining a Function
 
 ```python
-def drawSquare:
+def drawSquare():
     for i in range(4):
         jet.forward(40)
         jet.right(90)

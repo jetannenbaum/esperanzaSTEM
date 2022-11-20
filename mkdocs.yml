@@ -16,6 +16,11 @@ nav:
     - Conditionals: python/conditionals.md
     - Lists: python/lists.md
     - Functions: python/functions.md
+    - Variable Scope: python/scope.md
+    - Exception Handling: python/tryExcept.md
+    - Recursion: python/recursion.md
+    - Towers of Hanoi: python/towers.md
+    - Eight Queens: python/eight.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
