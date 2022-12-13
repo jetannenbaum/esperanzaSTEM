@@ -39,6 +39,8 @@ Here the solution to finding your way home is two steps (three steps). First, we
 
  1. Summing a list of numbers: [https://trinket.io/python3/3fc6942d2f](https://trinket.io/python3/3fc6942d2f)
 
+ 1. Sum the counting numbers up to 20: [https://trinket.io/python/2e8cf2b456](https://trinket.io/python/2e8cf2b456)
+
  1. Factorial: [https://trinket.io/python3/ab3e92b2d1](https://trinket.io/python3/ab3e92b2d1)
 
  1. Fibonacci: [https://trinket.io/python3/dce6382d1f](https://trinket.io/python3/dce6382d1f)         
