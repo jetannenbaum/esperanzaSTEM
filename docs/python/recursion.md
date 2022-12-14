@@ -22,12 +22,19 @@ Here the solution to finding your way home is two steps (three steps). First, we
 1. Summing a list of numbers:
     - What is a recursive solution to summing up a list of numbers?
         - Note that the sum of [1 2 3 4 5 6 7 8 9] is equal to 1 + sum of [2 3 4 5 6 7 8 9]
-1. Factorial:
+1. Sum counting numbers:
+     - What are counting numbers?
+         - Positive inters from 1 to infinity (and beyond)
+     - If we count backwards, the solution becomes:
+         - sum(1) = 1
+         - sum(n) - n + sum(n - 1)
+     - What is sum(20)?
+3. Factorial:
     - What is the definition of a factorial?
         - factorial(x) = x * factorial(x - 1)
         - Note: we only use counting numbers, so we will stop at factorial(1)
             - What is factorial(10)?
-1. Fibonacci Sequence:
+4. Fibonacci Sequence:
     - What is a Fibonacci Sequence?
         - The sequence is defined as follows:
             - 1, 1, 2, 3, 5, 8, ...
