@@ -24,6 +24,7 @@ nav:
   - MicroPython:
     - Raspberry Pi Pico: micropython/pico.md
     - Installing MicroPython: micropython/install.md
+    - Thonny: micropython/thonny.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
