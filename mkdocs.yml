@@ -21,6 +21,9 @@ nav:
     - Recursion: python/recursion.md
     - Towers of Hanoi: python/towers.md
     - Eight Queens: python/eight.md
+  - MicroPython:
+    - Raspberry Pi Pico: micropython/pico.md
+    - Installing MicroPython: micropython/install.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
