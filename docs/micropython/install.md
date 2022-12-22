@@ -12,6 +12,6 @@ Get the latest firmware release from [MicroPython.org](https://micropython.org/d
 
 - Copy the downloaded uf2 file onto the RPI-RP2 drive
 
-- The Pico should reboot an be ready to use.
+- The Pico should reboot and be ready to use.
 
 - The PRI-RP2 drive will no longer be visiable on your computer.
