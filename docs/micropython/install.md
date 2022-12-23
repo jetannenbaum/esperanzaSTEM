@@ -14,4 +14,4 @@ Get the latest firmware release from [MicroPython.org](https://micropython.org/d
 
 - The Pico should reboot and be ready to use.
 
-- The PRI-RP2 drive will no longer be visiable on your computer.
+- The RPI-RP2 drive will no longer be visiable on your computer.
