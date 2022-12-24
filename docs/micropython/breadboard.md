@@ -1,6 +1,6 @@
 # Breadboards
 
-![Solderless Mini Breadboard](../img/solderless-mini-breadboard.jpg)
+![Solderless Mini Breadboard](./img/solderless-mini-breadboard.jpg)
 
 We use standard solderless mini breadboards in our labs.  The breadboards have holes that are spaced 1/10th of an inch apart which is a standard for most electronics in the US.
 
@@ -17,13 +17,13 @@ Learning how a breadboard works is critical for building your projects.  In the 
 
 For most of our labs we place the Pico so that pin 1 of the Pico is in row 1 of the breadboard as in the image below.
 
-![Pico on Breadboard](../img/pico-on-breadboard.png)
+![Pico on Breadboard](./img/pico-on-breadboard.png)
 
 This means that the GND connections to the Pico are always in rows 3, 8, 13 and 18 on both sides of the breadboard.  One of the ground pins is usually hooked up to the vertical blue power rails on the sides of the breadboard.
 
 ## Pico Placement Annotations
 
-![Pico on Breadboard](../img/picoBreadBoard.jpg)
+![Pico on Breadboard](./img/picoBreadBoard.jpg)
 
 1. **GND** are the ground connections.  There are 4 on each side of the board
 2. **3.3V** is the 3.3 volt power, regulated down from the 5 volts from the USB connection.
