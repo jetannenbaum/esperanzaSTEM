@@ -27,6 +27,7 @@ nav:
     - Thonny: micropython/thonny.md
     - Breadboard: micropython/breadboard.md
     - Blink Onboard LED: micropython/onboardBlink.md
+    - Alternating LEDs: micropython/alternatingBlink.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
