@@ -14,7 +14,7 @@
 
     ```Insert the resistor leads into J3 and into the Ground rail``` 
 
-1. When you are finsihed, your breadboard shold look similar to the image below (Note: you LEDs may be different colors)
+1. When you are finsihed, your breadboard should look similar to the image below (Note: you LEDs may be different colors)
 
 ![Lab 2](./img/lab2.jpg)
 
