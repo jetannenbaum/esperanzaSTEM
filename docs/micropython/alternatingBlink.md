@@ -2,11 +2,11 @@
 
 ## Parts for this Lab are in Bag **2**
 
-1. The longer lead on the LEDs is the Anode(+) lead.  This is the lead that you will connect to your Pico
+1. The longer lead on the LED is the Anode(+) lead.  This is the lead that you will connect to your Pico
 
     ```Insert the Anode leads into J20 and J19```
 
-1. The shorter lead on the LEDs is called the Cathode(-).  This is the lead that you will connect to the ground rail.
+1. The shorter lead on the LED is called the Cathode(-).  This is the lead that you will connect to the ground rail.
 
     ```Insert the Cathode leads into the Ground rail```
 
