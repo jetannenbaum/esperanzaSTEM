@@ -32,7 +32,7 @@ while True:
         sleep(0.5)
 ```
 
-## Solution: Interriupt Method
+## Solution: Interrupt Method
 
 ```python
 # Author: J.E. Tannenbaum

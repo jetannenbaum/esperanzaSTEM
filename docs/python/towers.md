@@ -30,4 +30,4 @@ To solve the problem, you will need to do the following:
 4. Once all the discs on top of the current disc have been moved, you can move the disc to the final pole.
 5. Repeat this process until all the discs have been moved from the starting pole to the final pole.
 
-A solution: [https://trinket.io/python/d425c2e31e]https://trinket.io/python/d425c2e31e
+A solution: [https://trinket.io/python/d425c2e31e](https://trinket.io/python/d425c2e31e)
