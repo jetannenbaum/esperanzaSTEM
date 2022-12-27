@@ -34,7 +34,8 @@ nav:
     - Analog to Digital Converter: micropython/adc.md
     - Solutions:
       - Alternating LEDs: micropython/lab2.md
-      - Button Press (Polling/Interrupt): micropython/lab3.md
+      - Button Press (Polling): micropython/lab3p.md
+      - Button Press (Interrupt): micropython/lab3i.md
       - Pulse Width Modulation: micropython/lab4.md
       - Analog to Digital Converter: micropython/lab5.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
