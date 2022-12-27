@@ -32,6 +32,7 @@ nav:
     - Button Press (Interrupt): micropython/buttonPressInterrupt.md
     - Pulse Width Modulation: micropython/pwm.md
     - Analog to Digital Converter: micropython/adc.md
+    - Photo Resistor: micropython/photoResistor.md
     - Solutions:
       - Alternating LEDs: micropython/solutions/lab2.md
       - Button Press (Polling): micropython/solutions/lab3p.md
