@@ -54,10 +54,10 @@ for x in animal:
 ```
 
 !!! Experiments
-1. Can you make the turtle draw a larger square?  Hint: change the distance to be 80.  How big can you make the square before the turtle goes off the screen?
-1. A polygon's internal angle can be calculated as: angle = 360 / Number of sides.  A square is a type of polygon.  It has four sides, so the internal angle = 360 / 4 = 90 degrees!
-1. Can you make a hexagon?  This is a figure with six sides.  Hint: Use the equation above to calculate the internal angle.
-1. Can you make an octagon?  An Octagon has eight sides.
-1. Can you make a stop sign?  You will need to use a jet.color('red'). a jet.beginfill() and a jet.endfill().  You can add the text of the word "stop" by using jet.moveto(x,y) and jet.write('STOP', font=("Arial", 30, "normal")).  You can also use the jet.hideturtle() so that the outline of the turtle is not displayed at the end.
+    1. Can you make the turtle draw a larger square?  Hint: change the distance to be 80.  How big can you make the square before the turtle goes off the screen?
+    1. A polygon's internal angle can be calculated as: angle = 360 / Number of sides.  A square is a type of polygon.  It has four sides, so the internal angle = 360 / 4 = 90 degrees!
+    1. Can you make a hexagon?  This is a figure with six sides.  Hint: Use the equation above to calculate the internal angle.
+    1. Can you make an octagon?  An Octagon has eight sides.
+    1. Can you make a stop sign?  You will need to use a jet.color('red'). a jet.beginfill() and a jet.endfill().  You can add the text of the word "stop" by using jet.moveto(x,y) and jet.write('STOP', font=("Arial", 30, "normal")).  You can also use the jet.hideturtle() so that the outline of the turtle is not displayed at the end.
 
-Drawing the Stop Sign: [https://trinket.io/python/eb27ed7fef](https://trinket.io/python/eb27ed7fef)
+    Drawing the Stop Sign: [https://trinket.io/python/eb27ed7fef](https://trinket.io/python/eb27ed7fef)

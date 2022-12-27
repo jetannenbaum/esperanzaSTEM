@@ -48,6 +48,6 @@ print('The sum of the numbers from 1 to 10 is: ' + str(sumNumbers(numbers)))
 ```
 
 !!! Challenge
-Can you create a function that draws a polygon in a color?  Once you have the function, try calling it.
+    Can you create a function that draws a polygon in a color?  Once you have the function, try calling it.
 
-Using a function: [https://trinket.io/python/550d2a8530](https://trinket.io/python/550d2a8530)
+    Using a function: [https://trinket.io/python/550d2a8530](https://trinket.io/python/550d2a8530)

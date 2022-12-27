@@ -39,6 +39,6 @@ while (i < 10):
 ```
 
 !!! Challenge
-Can you create a square where two parallel sides are blue and the other two parallel sides are red?
+   Can you create a square where two parallel sides are blue and the other two parallel sides are red?
 
-<center>![Two color square](./img/twoColorSquare.jpg)</center>
+   <center>![Two color square](./img/twoColorSquare.jpg)</center>
