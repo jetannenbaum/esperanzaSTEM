@@ -1,4 +1,4 @@
-# Our Fifth Lab: Using an ANalog to Digital Converter (ADC) 
+# Our Fifth Lab: Using an Analog to Digital Converter (ADC) 
 
 ## Parts for this Lab are in Bag **2** and Bag **5**
 
