@@ -38,6 +38,7 @@ nav:
       - Button Press (Interrupt): micropython/solutions/lab3i.md
       - Pulse Width Modulation: micropython/solutions/lab4.md
       - Analog to Digital Converter: micropython/solutions/lab5.md
+      - Photo Resistor: micropython/solutions/lab6.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:
