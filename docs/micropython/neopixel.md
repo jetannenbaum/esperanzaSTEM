@@ -4,9 +4,9 @@
 
 1. We will use the neopixel display from Bag 7.
 
-    - Insert the lead from the **GND** of the display into ```j3```
-    - Insert the lead from the **VCC** of the display into ```j40```
-    - Insert the lead from the **IN** of the display into ```a1```
+    - Insert the lead from **GND** of the display into ```j3```
+    - Insert the lead from **VCC** of the display into ```j40```
+    - Insert the lead from **IN** of the display into ```a1```
 
 1. When you are finished, your breadboard should look similar to the image below (Note: your wires may be different colors)
 
@@ -38,7 +38,7 @@
 	        strip [i] = (0,0,255) 
 	        strip.write()
         ```
-    - Or, you can set aall of the pixels at the same time
+    - Or, you can set all of the pixels at the same time
         ```python
         strip.fill(0,0,255) 
 	    strip.write()
