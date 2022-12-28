@@ -35,6 +35,7 @@ nav:
     - Photo Resistor: micropython/photoResistor.md
     - NeoPixel Display: micropython/neopixel.md
     - Digital Display: micropython/ssd1306.md
+    - Joystick: micropython/joystick.md
     - Solutions:
       - Alternating LEDs: micropython/solutions/lab2.md
       - Button Press (Polling): micropython/solutions/lab3p.md
@@ -44,6 +45,7 @@ nav:
       - Photo Resistor: micropython/solutions/lab6.md
       - NeoPixel Display: micropython/solutions/lab7.md
       - Digital Display: micropython/solutions/lab8.md
+      - Joystick: micropython/solutions/lab9.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
 
 theme:

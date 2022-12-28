@@ -1,6 +1,6 @@
 # Our Eigth Lab: Using an SSD1306 Digital Display
 
-## Solution: Moving your name around the display
+## Solution: Moving Your Name Around the Display
 
 ```python
 # Author: J.E. Tannenbaum
