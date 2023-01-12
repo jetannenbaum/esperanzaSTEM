@@ -49,7 +49,8 @@
 
    ![NeoPixel Display](./img/NeoPixel.gif) 
 
-    Colors can be found here: [https://www.rapidtables.com/web/color/RGB_Color.html](https://www.rapidtables.com/web/color/RGB_Color.html)
+    Colors can be found here: 
+    [https://www.rapidtables.com/web/color/RGB_Color.html](https://www.rapidtables.com/web/color/RGB_Color.html)
 
     Once that works, turn the entire set of pixels on with a single color, then move to the next color that you selected.
 
