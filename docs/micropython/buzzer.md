@@ -21,7 +21,7 @@
     - Using what you learned in the previous labs, do the following:
         - Set up GP 16 as a PWM pin
         - Set the frequency to 1,000 Hz
-        - Set teh duty cycle to 50%
+        - Set the duty cycle to 50%
         - Wait 5 seconds 
         - Then set the duty cycle to 0 to turn off the sound
         - Don't forget to comment your code!
