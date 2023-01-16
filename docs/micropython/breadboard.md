@@ -15,7 +15,7 @@ Learning how a breadboard works is critical for building your projects.  In the 
 
 ## Pico Placement on Breadboard
 
-For most of our labs we place the Pico so that pin 1 of the Pico is in row 1 of the breadboard as in the image below.
+For most of our labs we place the Pico board (found in **bag 1**) so that pin 1 of the Pico is in row 1 of the breadboard as in the image below.
 
 ![Pico on Breadboard](./img/pico-on-breadboard.png)
 
