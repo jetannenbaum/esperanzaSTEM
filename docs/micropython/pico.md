@@ -1,8 +1,8 @@
-# Raspberry Pi Pico
+# Raspberry Pi Pico (found in **Bag 1**)
 
 ![pico](./img/pico.png)
 
-We will be working with the Raspberry Pi pIico.  It is a low-cost ($4.00), high-performance microcontroller board with flexible digital interfaces. Key features include:
+We will be working with the Raspberry Pi Pico.  It is a low-cost ($4.00), high-performance microcontroller board with flexible digital interfaces. Key features include:
 
 - RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom
 
