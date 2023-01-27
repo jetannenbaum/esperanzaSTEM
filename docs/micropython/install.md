@@ -1,5 +1,7 @@
 # Installing the Latest Version of MicroPython
 
+If Thonny fails to install (or you are using another application like Visual Studio Code to work with the Pico), perform the following steps:
+
 Get the latest firmware release from [MicroPython.org](https://micropython.org/download/rp2-pico/)
 
 - Download the latest uf2 to your computer (Nightly builds have the latest code, but may not be stable)

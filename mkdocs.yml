@@ -23,8 +23,8 @@ nav:
     - Eight Queens: python/eight.md
   - MicroPython:
     - Raspberry Pi Pico: micropython/pico.md
-    - Installing MicroPython: micropython/install.md
     - Thonny: micropython/thonny.md
+    - Installing MicroPython: micropython/install.md
     - Breadboard: micropython/breadboard.md
     - Blink Onboard LED: micropython/onboardBlink.md
     - Alternating LEDs: micropython/alternatingBlink.md

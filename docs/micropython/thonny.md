@@ -23,6 +23,18 @@ Once Thonny is successfully installed, make sure to change the interpreter that 
 
 Thonny runs on Mac, Windows and Linux.
 
+### Installing MicroPython
+
+- Hold down the boot button on the board (white button)
+
+- Plug one end of the USB cable into the board and the other end into your computer
+
+-  The Pico should show up as a new drive (labeled RPI-RP2) available on your computer
+
+- Thonny will install the latest version of MicroPython for you
+
+![Installing MicroPython](./img/thonnyMicroPythonUpload.jpg)
+
 #### Running help()
 You can enter the help() function in the main script area and then press the Play button.  This will tell you 
 
