@@ -10,7 +10,9 @@
 - A number without a decimal point: angle = 90
 - A collection: angle = ["Ninety", 90.0, 90]
 
-!!! Challenge Which Variable Names Are Legal?
+!!! Challenge
+    Which Variable Names Are Legal?
+    
     - SayHello
     - _goodbye!
     - 2For1
