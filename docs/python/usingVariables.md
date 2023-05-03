@@ -30,7 +30,7 @@ jet.right(angle)
 
 Run Square With Variables: [https://trinket.io/python/94326b4743](https://trinket.io/python/94326b4743)
 
-!!! Experiments
-Can you make the turtle draw a larger square? 
+!!! Challenge
+    Can you make the turtle draw a larger square? 
 
-- Hint: Set the distance variable to 100 instead of 40
+    - Hint: Set the distance variable to 100 instead of 40
