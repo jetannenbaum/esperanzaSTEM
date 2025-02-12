@@ -32,7 +32,7 @@ Feed the screws up through the bottom of the chassis in the holes that were dril
 
 ## About the Maker Pi RP2040
 
-![RP2040](./img/maker-pi-rp2040-top-view.png)
+![Maker Pi RP2040](./img/maker-pi-rp2040-top-view.png)
 
 The robot car's brain is the Maker Pi RP2040.  The Maker Pi board makes building a robot simple, since it is a one board solution built around the RP2040 (the same controller used in the Raspberry Pi Pico).  The board comes with a dual channel DC motor driver to drive the wheels, four servo motor ports, seven grove ports for digital I/O, Indicator LEDs, a piezo, and two Neopixel leds.
 
