@@ -290,9 +290,13 @@ LEFT_FORWARD_PIN = 9
 LEFT_REVERSE_PIN = 8
 
 right_forward = PWM(Pin(RIGHT_FORWARD_PIN))
+right_forward.freq(1000)
 right_reverse = PWM(Pin(RIGHT_REVERSE_PIN))
+right_reverse.freq(1000)
 left_forward = PWM(Pin(LEFT_FORWARD_PIN))
+left_forward.freq(1000)
 left_reverse = PWM(Pin(LEFT_REVERSE_PIN))
+left_reverse.freq(1000)
 
 def forward():
     right_reverse.duty_u16(0)
@@ -346,7 +350,8 @@ def reverseAndTurn():
     stop()
     utime.sleep(.25)
     stopTone()
-    
+
+stop()    
 auto = False;
 autoPin = Pin(20, Pin.IN)
 leftPin = Pin(7, Pin.IN)

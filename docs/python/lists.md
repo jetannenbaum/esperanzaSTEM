@@ -43,26 +43,28 @@ print(number)
 ```
 
 !!! Challenge
-1. Get a random number of colors from the user
-    1. hint: color = input('Enter a color: ')
-1. Store the color in a list of colors
-1. Draw the polygons, one in each color, in a similar manner to the four squares.
-    1. Let the number of sides of each polygon be equal to the number of colors that the user entered
-        1. hint: # of sides = len(colors)
-    1. Calculate the angle needed to draw a polygon
-        1. hint: angle = 360 / # of sides
-    1. Loop through all of the colors in the list you created
-        1. hint: 
-        ```python
-        for color in colors:
-            # set the color
-            # begin fill
-            # draw polygon
-            # end fill
-        # hide the turtle when done.
-        ```
-<center>![Polygon Drawing](./img/polygonDraw.jpg)</center>
 
+    1. Get a random number of colors from the user
+        1. hint: color = input('Enter a color: ')
+    1. Store the color in a list of colors
+    1. Draw the polygons, one in each color, in a similar manner to the four squares.
+        1. Let the number of sides of each polygon be equal to the number of colors that the user entered
+            1. hint: # of sides = len(colors)
+        1. Calculate the angle needed to draw a polygon
+            1. hint: angle = 360 / # of sides
+        1. Loop through all of the colors in the list you created
+            1. hint: 
+            ```python
+            for color in colors:
+                # set the color
+                # begin fill
+                # draw polygon
+                # end fill
+            # hide the turtle when done.
+            ```
+    <center>![Polygon Drawing](./img/polygonDraw.jpg)</center>
+
+    What happens if the user only enters two colors?  Can you add a check?
+    
 Need some help?  Take a look here: [https://trinket.io/python/06ab63c75f](https://trinket.io/python/06ab63c75f)
 
-What happens if the user only enters two colors?  Can you add a check?

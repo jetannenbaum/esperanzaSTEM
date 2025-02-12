@@ -12,10 +12,10 @@
 
 1. We will also use one of the potentiometers from Bag 5.
 
-    - Insert the pins of the potentiometer into ```j30, j29, and j28```
+    - Insert the pins of the potentiometer into ```j30, j28, and j26```
     - Using one of the jumper wires in Bag 5, insert one end to ```f30``` and the other end into the ```j8``` 
-    - Take the second jumper wire, insert one end into the ```g29``` and the other into ```j10```
-    - Using the third jumper wire, insert one end into ```f28``` and the other end into ```j6```
+    - Take the second jumper wire, insert one end into the ```g28``` and the other into ```j10```
+    - Using the third jumper wire, insert one end into ```f26``` and the other end into ```j6```
 
 1. When you are finished, your breadboard should look similar to the image below (Note: your LED and wires may be different colors)
 
