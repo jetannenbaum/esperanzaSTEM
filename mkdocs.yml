@@ -49,6 +49,8 @@ nav:
       - Joystick: micropython/solutions/lab9.md
       - Buzzer: micropython/solutions/lab10.md
   - Robot Car: robotCar/makerPiRP2040Bot.md
+  - Robotics:
+    - Chassis Build: robotics/chassisBuild.md
 
 theme:
   material
