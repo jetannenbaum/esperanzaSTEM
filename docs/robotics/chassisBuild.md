@@ -24,7 +24,7 @@ The battery holder is mounted on the bottom of the chassis, nestled between the 
 
 Assemble the rear wheel by adding the standoffs to the castor wheel as shown in the above left image.  Then attach it to the chassis.  The wires for the battery holder are shown feeding through the hole to the left of the motor wires.  They will need to be fed through the right side (assembler error).
 
-### Finally, add Maker Pi RP2040 board
+### Finally, add the Maker Pi RP2040 board
 
 ![Nut and Bolt](./img/NutAndBolt.jpg)![Rear Wire View](./img/RearWires.jpg)
 
