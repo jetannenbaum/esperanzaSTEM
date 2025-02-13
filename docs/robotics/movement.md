@@ -45,6 +45,8 @@ led.value(0)
 
     ```python
     from machine import Pin, PWM
+    from time import sleep
+
     pwmPin = PWM(Pin(1))
     ```
 
@@ -54,9 +56,11 @@ led.value(0)
     # Apply and remove power 1000 times/second (too fast to see)
     pwmPin.freq(1000)
 
-    # Apply voltage 25% of the time
+    # Apply voltage 25% of the time for 5 seconds
     # Range is 0 - 65535
     pwmPin.duty_u16(65535 // 4)
+    sleep(5)
+    pwmPin.duty_u16(0)
     ```
 
 ### Controlling the Motors
