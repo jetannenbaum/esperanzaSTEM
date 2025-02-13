@@ -51,6 +51,7 @@ nav:
   - Robot Car: robotCar/makerPiRP2040Bot.md
   - Robotics:
     - Chassis Build: robotics/chassisBuild.md
+    - Movement: robotics/movement.md
 
 theme:
   material
