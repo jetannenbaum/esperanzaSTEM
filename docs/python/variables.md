@@ -2,7 +2,7 @@
 ## Variable Names:
 - Must start with a letter or an underscore
 - Can only contain alpha-numeric characters and underscores (A-z, 0-9, and _)
-- Case sensitive (Angle is _not_ the ame as angle)
+- Case sensitive (Angle is _not_ the same as angle)
 
 ## Variables Can Hold a Variety of Things
 - Text: angle = "Ninety degrees"
