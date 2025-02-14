@@ -81,6 +81,9 @@ left_forward.freq(1000)
 left_reverse = PWM(Pin(8))
 left_reverse.freq(1000)
 
+# Wait 2 seconds before moving
+sleep(2)
+
 # Move Forward at half speed for 2 seconds
 right_reverse.duty_u16(0)
 left_reverse.duty_u16(0)
