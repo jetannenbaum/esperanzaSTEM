@@ -1,6 +1,6 @@
 # Getting the Robot Car to Move
 
-## Connect the Computer to the Maker Pi RP2040
+## Connect your Computer to the Maker Pi RP2040
 
 Use the USB cable to connect your laptop to the Maker Pi RP2040.  Once connected, move the switch to the the ON position.  You should see the green light turn on.
 
@@ -12,7 +12,7 @@ Now that your board is connected, you need to download the MicroPython interpret
 
 ![MicroPython Install](./img/thonnyMicroPythonInstall.jpg)
 
-Select the Raspberry Pi Pico / Pico H from the variant pulldown and use the latest version.
+Select the Raspberry Pi Pico / Pico H from the variant pulldown and use the latest version.  Then click Install.
 
 ![MicroPython Selection](./img/microPythonSelection.jpg)
 
@@ -20,15 +20,15 @@ Close the Install window after the the install is done.  Click on the red STOP i
 
 ## Using Digital I/O
 
-Our board has digital input and output ports.  They are either on or off.  You can see that by typing the following in the main window, then clicking on the GREEN icon.  You will see one of the Digital IO Status leds turn on then off after 5 seconds:
+Our board has digital input and output ports.  They are either on or off.  You can see that by typing the following in the main window, then clicking on the GREEN icon.  You will see one of the wheels turn at full speed and then stop after 5 seconds:
 
 ```python
 from machine import Pin
 from time import sleep
-led = Pin(0, Pin.OUT)
-led.value(1)
+wheel = Pin(11, Pin.OUT)
+wheel.value(1)
 sleep(5)
-led.value(0)
+wheel.value(0)
 ```
 
 ## Using Pulse Width Modulation (PWM) to Control the Speed of the Motors
@@ -47,44 +47,31 @@ led.value(0)
     from machine import Pin, PWM
     from time import sleep
 
-    pwmPin = PWM(Pin(1))
+    pwmWheel = PWM(Pin(11))
     ```
 
 - Now set the frequency and the duty cycle:
 
     ```python
     # Apply and remove power 1000 times/second (too fast to see)
-    pwmPin.freq(1000)
+    pwmWheel.freq(1000)
 
-    # Apply voltage 25% of the time for 5 seconds
+    # Apply voltage 25% of the time (Move at 1/4 speed) for 5 seconds
     # Range is 0 - 65535
-    pwmPin.duty_u16(65535 // 4)
+    pwmWheel.duty_u16(16384)
     sleep(5)
-    pwmPin.duty_u16(0)
+    pwmWheel.duty_u16(0)
     ```
 
 ### Controlling the Motors
 
-Now that we know some basic MicroPython, let's use it to control the motors.  First, we need some code to allow the Maker Pi RP2040 board to control the motors:
+Now that we know some basic MicroPython, let's use it to control all of the motors.  We need some code to allow the Maker Pi RP2040 board to control each motor.  Notice that we need to define a seperate PWM Pin for each wheel, forward and backward:
 
 ```python
 from machine import Pin, PWM
 from time import sleep
 
-def forward():
-    right_reverse.duty_u16(0)
-    left_reverse.duty_u16(0)
-    right_forward.duty_u16(FULL_POWER_LEVEL)
-    left_forward.duty_u16(FULL_POWER_LEVEL)
-
-def stop():
-    right_forward.duty_u16(0)
-    right_reverse.duty_u16(0)
-    left_forward.duty_u16(0)
-    left_reverse.duty_u16(0)
-
 # Motor definitions
-FULL_POWER_LEVEL = 65024
 right_forward = PWM(Pin(11))
 right_forward.freq(1000)
 right_reverse = PWM(Pin(10))
@@ -94,9 +81,25 @@ left_forward.freq(1000)
 left_reverse = PWM(Pin(8))
 left_reverse.freq(1000)
 
-forward()
+# Move Forward at half speed for 2 seconds
+right_reverse.duty_u16(0)
+left_reverse.duty_u16(0)
+right_forward.duty_u16(32768)
+left_forward.duty_u16(32768)
 sleep(2)
-stop()
+
+# Move Backwards at half speed for 2 seconds
+right_forward.duty_u16(0)
+left_forward.duty_u16(0)
+right_reverse.duty_u16(32768)
+left_reverse.duty_u16(32768)
+sleep(2)
+
+# Stop Moving
+right_forward.duty_u16(0)
+right_reverse.duty_u16(0)
+left_forward.duty_u16(0)
+left_reverse.duty_u16(0)
 ```
 
 ## What's Next?
@@ -106,8 +109,7 @@ We need to install batteries and download code to the Maker PI RP2040 board in o
 ![File save](./img/saveToBoard.jpg)
 
 !!! Challenge
-    Can you have the robot autonomously drive halfway around your table, turn around 180 degrees, and return to it's starting spot?
+    Can you have the robot autonomously drive in a square and return to it's starting point?
 
-    What additional methods would be helpful?
+    Note: The car will turn left or right when the wheels spin in the opposite directions.
 
-    Is it easier if the robot changes speeds?

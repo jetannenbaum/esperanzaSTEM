@@ -2,6 +2,20 @@
 
 ## The Robot Car Chassis Kit Assembly
 
+### Locating the Maker Pi RP2040 Board
+
+![Board Placement](./img/BoardPlacement.jpg)![Board Marked](./img/BoardMarked.jpg)
+
+Place the Maker PI RP2040 board on the rear of the chassis as shown and mark the small holes that are in each corner.  Make sure the back of the board is closer to the back of the chassis, since the motors will end up close to the front board mounts.
+
+![Drill Holes](./img/DrillHoles.jpg)
+
+Once the holes are marked, drill the holes, using a 1/8 inch drill bit.  Be careful, as your mounting holes may be close to existing mount holes in the chassis.  Also note that the chassis is thin plastic, so it must be supported as you drill through it.
+
+![Peel Paper](./img/PeelPaper.jpg)
+
+After the holes are drilled, remove the paper from the chassis and motor mounts.  All parts should be clear plastic after the paper is removed.
+
 ### Start with the wheel and motor assembly
 
 ![Wheel Parts](./img/WheelParts.jpg)![Motor Assembly](./img/MotorAssembly.jpg)
