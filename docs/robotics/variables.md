@@ -91,4 +91,4 @@ If we want to move further or change the speed we can simply change the value of
 
     Make a larger square
 
-    Move a different speed
+    Move at a different speed
