@@ -52,7 +52,7 @@ nav:
   - Robotics:
     - Chassis Build: robotics/chassisBuild.md
     - Movement: robotics/movement.md
-    - More Control: robotics/control.md
+    - Using Variables: robotics/variables.md
 
 theme:
   material
