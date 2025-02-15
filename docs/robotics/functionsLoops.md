@@ -20,11 +20,12 @@ def forward():
 ### Passing Variables into a Function
 
 ```python
-def forward(speed):
+def forward(speed, delay):
     right_reverse.duty_u16(0)
     left_reverse.duty_u16(0)
     right_forward.duty_u16(speed)
     left_forward.duty_u16(speed)
+    sleep(delay)
 ```
 
 ### Returning a Result From a Function
