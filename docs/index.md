@@ -3,7 +3,7 @@
 
 ## Program Basics
 
-### Three part program
+### Four Part Program
 * Basic introduction to Python programming language
     * Using trinket.io website and turtle graphics
 * Introduce the Raspberry Pi Pico micro controller
@@ -13,3 +13,7 @@
         * Avoid collisions
         * Line following
         * Remote control using a phone/tablet and LightBlue
+* Robotics combined with Python/MicroPython (short course)
+    * MicroPython and sensor integration:
+        * Avoid collisions
+        * Line following
