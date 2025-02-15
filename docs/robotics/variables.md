@@ -35,10 +35,6 @@ We can use variables to make driving the robot car simpler.  For example, we can
 - SPEED = 32768
 - DELAY = 2
 - FREQUENCY = 1000
-- RIGHT_FORWARD_PIN = 11
-- RIGHT_REVERSE_PIN = 10
-- LEFT_FORWARD_PIN = 9
-- LEFT_REVERSE_PIN = 8
 
 Now we can have the robot car easily move faster or further without changing the numbers in multiple places.  The simple code we had last time becomes:
 
