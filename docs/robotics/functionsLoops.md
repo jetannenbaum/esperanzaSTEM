@@ -33,13 +33,14 @@ def forward(speed, delay):
 ```python
 def distanceToObject():
     # Some code
-    return distanceInMM
+    return distance_cm
 ```
 
 ### Calling a Function
 
 ```python
 forward(SPEED, DELAY)
+distance_cm = distanceToObject()
 ```
 
 ## Using a Loop
