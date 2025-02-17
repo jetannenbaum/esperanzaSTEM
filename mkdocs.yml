@@ -55,6 +55,7 @@ nav:
     - Using Variables: robotics/variables.md
     - Functions and Loops: robotics/functionsLoops.md
     - Collision Avoidance: robotics/ultrasonicSensor.md
+    - Line Following: robotics/lineFollowing.md
 
 theme:
   material
