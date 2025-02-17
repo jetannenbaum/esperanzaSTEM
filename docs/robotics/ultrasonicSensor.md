@@ -34,14 +34,21 @@ Less Than or Equal | a <= b | 2 + 2 <= 5
 Greater Than | a > b | 5 > 2
 Greater Than or Equal | a >= b | 5 > 2 + 2
 
+### Logical Conditionals
+
+Condition | Expression | Explanation | Example
+----------|------------|-------------| -------
+And | a and b | Both must be true | a == b and c == d
+Or | a or b | Either must be true | a == b or c == d
+
 ### When are Condionals Used?
 
-They are used when we want to test a condition in an if statement:
+They are used when we want to test conditions in an if statement:
 
 ```python
 if distance_cm > COLLISION DISTANCE_CM:
    forward(FULL_SPEED)
-elif distance_cm == COLLISION DISTANCE_CM:
+elif distance_cm <= COLLISION DISTANCE_CM and distance_cm > HALF_COLLISION_DISTANCE_CM:
    forward(HALF_SPEED)
 else:
    stop()
