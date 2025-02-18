@@ -46,7 +46,7 @@ Or | a or b | Either must be true | a == b or c == d
 They are used when we want to test conditions in an if statement:
 
 ```python
-if distance_cm > COLLISION DISTANCE_CM:
+if distance_cm > COLLISION_DISTANCE_CM:
    forward(FULL_SPEED)
 elif distance_cm <= COLLISION DISTANCE_CM and distance_cm > HALF_COLLISION_DISTANCE_CM:
    forward(HALF_SPEED)
