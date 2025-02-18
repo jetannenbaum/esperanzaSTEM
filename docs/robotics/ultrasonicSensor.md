@@ -48,7 +48,7 @@ They are used when we want to test conditions in an if statement:
 ```python
 if distance_cm > COLLISION_DISTANCE_CM:
    forward(FULL_SPEED)
-elif distance_cm <= COLLISION DISTANCE_CM and distance_cm > HALF_COLLISION_DISTANCE_CM:
+elif distance_cm <= COLLISION_DISTANCE_CM and distance_cm > HALF_COLLISION_DISTANCE_CM:
    forward(HALF_SPEED)
 else:
    stop()
