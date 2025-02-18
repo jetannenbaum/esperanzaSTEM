@@ -41,7 +41,7 @@ Condition | Expression | Explanation | Example
 And | a and b | Both must be true | a == b and c == d
 Or | a or b | Either must be true | a == b or c == d
 
-### When are Condionals Used?
+### When are Conditionals Used?
 
 They are used when we want to test conditions in an if statement:
 
