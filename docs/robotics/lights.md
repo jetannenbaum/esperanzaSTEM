@@ -14,6 +14,9 @@ The Maker Pi RP2040 board has two Neopixel LEDs.  We can use them to tell us wha
     - White (255, 255, 255)
     - Black (0, 0, 0)
 
+- A wide variety of colors are possible.  Take a look at this page for some of the other possibilities:
+[RGB Color Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
+
 ### Using Neopixel LEDs
 
 ```python
