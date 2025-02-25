@@ -4,7 +4,7 @@ The ultrasonic sensor measures distance using sonar, an ultrasonic (well above h
 
 ## Mounting the Sensor
 
-Find the ultrasonicsensor, mount, wire ties, grove connector wire, and screws in the box.  The sensor is in a bag labeled SN-HC-SR04P.  Use the silver screws.
+Find the ultrasonic sensor, mount, wire ties, grove connector wire, and screws in the box.  The sensor is in a bag labeled SN-HC-SR04P.  Use the silver screws.
 
 ![sensor and mount](./img/sensorAndMount.jpg)![Sensor Assembly](./img/SensorAssembly.jpg)![Sensor Mounted](./img/SensorMounted.jpg)![Sensor Wired](./img/SensorWired.jpg)
 

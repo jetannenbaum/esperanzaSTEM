@@ -56,6 +56,7 @@ nav:
     - Functions and Loops: robotics/functionsLoops.md
     - Adding Lights: robotics/lights.md
     - Collision Avoidance: robotics/ultrasonicSensor.md
+    - Avoiding Obstacles: robotics/obstacles.md
     - Line Following: robotics/lineFollowing.md
 
 theme:
