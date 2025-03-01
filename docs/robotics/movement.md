@@ -65,7 +65,7 @@ wheel.value(0)
 
 ### Controlling the Motors
 
-Now that we know some basic MicroPython, let's use it to control all of the motors.  We need some code to allow the Maker Pi RP2040 board to control each motor.  Notice that we need to define a seperate PWM Pin for each wheel, forward and backward:
+Now that we know some basic MicroPython, let's use it to control both of the motors.  We need some code to allow the Maker Pi RP2040 board to control each motor.  Notice that we need to define a seperate PWM Pin for each wheel, forward and backward:
 
 ```python
 from machine import Pin, PWM
