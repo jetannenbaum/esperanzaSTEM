@@ -85,6 +85,6 @@ If we want to move further or change the speed we can simply change the value of
 !!! Challenge
     Rewrite the main.py code to use variables
 
-    Make a larger square
+    Move farther (four feet) or make a larger square
 
-    Move at a different speed
+    Move at a slower speed (how slow can you go and still move in a straight line?)

@@ -32,7 +32,7 @@ Not Equals | a != b | 2 + 2 ! = 5
 Less Than | a < b | 2 < 5
 Less Than or Equal | a <= b | 2 + 2 <= 5
 Greater Than | a > b | 5 > 2
-Greater Than or Equal | a >= b | 5 > 2 + 2
+Greater Than or Equal | a >= b | 5 >= 2 + 2
 
 ### Logical Conditionals
 

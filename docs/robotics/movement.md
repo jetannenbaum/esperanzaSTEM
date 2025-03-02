@@ -112,9 +112,9 @@ We need to install batteries and download code to the Maker PI RP2040 board in o
 ![File save](./img/saveToBoard.jpg)
 
 !!! Challenge
-    1. Can you have the robot autonomously drive in a straight line?
+    1. Can you have the robot autonomously move in a straight line for three feet?
 
-    2. Can you have the robot autonomously drive in a square and return to it's starting point?
+    2. Can you have the robot autonomously move in a square and return to it's starting point?
 
         Note: The car will turn left or right when the wheels spin in the opposite directions.
 
