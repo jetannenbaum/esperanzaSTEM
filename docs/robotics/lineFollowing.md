@@ -32,11 +32,11 @@ The left sensor should be connected to Grove 7 and the right sensor should be co
 The DO pin of the sensor is a digital output that can be read by the Maker Pi RP2040 board.  The left sensor is connected to GP7 and the right sensor is connected to GP0.  We can detect the value of each of the sensors using the following code:
 
 ```python
-leftSensor = Pin(7, Pin.IN)
-rightSensor = Pin(0, Pin.IN)
+left_sensor = Pin(7, Pin.IN)
+right_sensor = Pin(0, Pin.IN)
 
-leftIR = leftSensor.value()
-rightIR = rightSensor.value()
+left_IR = left_sensor.value()
+right_IR = right_sensor.value()
 ```
 
 !!! Challenge
