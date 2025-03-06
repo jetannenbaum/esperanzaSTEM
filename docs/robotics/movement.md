@@ -56,9 +56,9 @@ wheel.value(0)
     # Apply and remove power 1000 times/second (too fast to see)
     pwmWheel.freq(1000)
 
-    # Apply voltage 25% of the time (Move at 1/4 speed) for 5 seconds
+    # Apply voltage 50% of the time (Move at 1/2 speed) for 5 seconds
     # Range is 0 - 65535
-    pwmWheel.duty_u16(16384)
+    pwmWheel.duty_u16(32768)
     sleep(5)
     pwmWheel.duty_u16(0)
     ```
