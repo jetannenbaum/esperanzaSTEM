@@ -27,7 +27,7 @@ Here the solution to finding your way home is two steps (three steps). First, we
             - Positive inters from 1 to infinity (and beyond)
         - If we count backwards, the solution becomes:
             - sum(1) = 1
-            - sum(n) - n + sum(n - 1)
+            - sum(n) = n + sum(n - 1)
         - What is sum(20)?
     3. Factorial:
         - What is the definition of a factorial?
