@@ -20,12 +20,11 @@ def forward():
 ### Passing Variables into a Function
 
 ```python
-def forward(speed, delay):
+def forward(speed):
     right_reverse.duty_u16(0)
     left_reverse.duty_u16(0)
     right_forward.duty_u16(speed)
     left_forward.duty_u16(speed)
-    sleep(delay)
 ```
 
 ### Returning a Result From a Function
@@ -39,7 +38,7 @@ def distanceToObject():
 ### Calling a Function
 
 ```python
-forward(SPEED, DELAY)
+forward(SPEED)
 distance_cm = distanceToObject()
 ```
 
@@ -51,8 +50,10 @@ A loop is a way to repeat the same action.
 
 ```python
 for i in range(4):
-    forward(SPEED, DELAY)
-    right(HALF_SPEED, DELAY_90_DEGREES)
+    forward(SPEED)
+    sleep(3)
+    right(HALF_SPEED)
+    sleep(1.5)
 stop()
 ```
 
