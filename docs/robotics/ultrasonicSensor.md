@@ -96,4 +96,12 @@ while True:
 Start the program.  Use your hand to move close to the sensor.  Do you hear the buzzer alert you that you are close to the sensor?  The code is calling the library you stored on the Maker Pi RP2040 board with the parameters that define the pins used to get a reading.  Next, we'll use the internal buzzer on the board to let us know when something is close to the sensor.  Finally, the code loops forwever, getting the distance measurement and comparing it to the CHECK_DISTANCE_CM.  If your hand is within range, the buzzer makes a sound.
 
 !!! Challenge
-    Using what you just learned, can you modify the main.py code so the car slows down, then stops before hitting a barrier?
+    Using what you just learned, can you modify the main.py code so:
+
+    1.  Starting at 100cm: forward duty_cycle is 60,000 and the LEDs are Green
+
+    2.  At 50cm from the barrier: the forward duty_cycle is 30,000 and the LEDs are Yellow
+
+    3.  At 20cm from the barrier: the car stops before hitting a barrier and the LEDs are Red?
+
+    Note: the car should move forward in a straight line, so you may have to modify the forward duty_cycle for each wheel.
