@@ -27,7 +27,7 @@ We can use a pre-existing library to control our servo.  We'll use Thony's Manag
 
 ```python
 from time import sleep
-fromservo import Servo
+from servo import Servo
 
 # According to the servo box, the pulse width range is 500usec to 2500 usec 
 servo = Servo(pin_id=13, min_us=500.0,max_us=2500.0)
