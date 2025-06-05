@@ -40,7 +40,9 @@ Assemble the rear wheel by adding the standoffs to the castor wheel as shown in 
 
 ### Finally, add the Maker Pi RP2040 board
 
-![Nut Bolt Standoff](./img/NutBoltStandoff.jpg)![Rear Wire View](./img/RearWires.jpg)
+![Nut Bolt Standoff](./img/NutBoltStandoff.jpg)
+
+![Board Mounted](./img/boardMount.jpg)![Rear Wire View](./img/RearWires.jpg)
 
 Feed the screws up through the bottom of the chassis in the holes that were drilled.  Use the stand-offs to separate the board from the chassis (and clear the wires), then secure the board with the nuts.  The board should be mounted such that the connections to the motor and battery wires face the rear of the chassis.  The wires can now be trimmed and attached to the board.  Carefully note that the black battery wire connects to the negative (-) green terminal and the red battery wire attaches to the positive (+) green terminal.  The motor wires should connect to the black terminals, with the black wires on the outside (terminals labeled GP8 and GP 11) and the red wires on the inside (terminals labeled GP 9 and GP 10).
 
